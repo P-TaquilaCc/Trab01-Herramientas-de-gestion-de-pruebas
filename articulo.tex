@@ -6,30 +6,26 @@
 \usepackage[T1]{fontenc} 
 \linespread{1.05} 
 \usepackage{microtype} 
-
 \usepackage[utf8]{inputenc} 
-
-
 \usepackage[spanish,english]{babel} 
-
-
-
 \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} 
 \usepackage[hang, small,labelfont=bf,up,textfont=it,up]{caption} 
 \usepackage{booktabs} 
-
-
 \usepackage{lettrine} 
-
-
 \usepackage{enumitem} 
-\setlist[itemize]{noitemsep} 
 
+\usepackage{titling}
+\usepackage{hyperref} 
+\usepackage{listings}
+\usepackage[table,xcdraw]{xcolor}
+
+\lstdefinestyle{sharpc}{language=[Sharp]C, frame=lr, rulecolor=\color{blue!80!black}}
+
+\setlist[itemize]{noitemsep} 
 
 \usepackage{abstract} 
 \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
 \renewcommand{\abstracttextfont}{\normalfont\small\itshape} 
-
 
 \usepackage{titlesec} 
 \renewcommand\thesection{\Roman{section}} % 
@@ -37,25 +33,12 @@
 \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} 
 \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} 
 
-
 \usepackage{fancyhdr} 
 \pagestyle{fancy} 
 \fancyhead{} 
 \fancyfoot{} 
 \fancyhead[C]{Patrones de Diseño $\bullet$ Octubre 2020 $\bullet$ } 
 \fancyfoot[RO,LE]{\thepage} 
-
-
-\usepackage{titling} 
-
-
-\usepackage{hyperref} 
-
-\usepackage{listings}
-\usepackage{xcolor}
-
-\lstdefinestyle{sharpc}{language=[Sharp]C, frame=lr, rulecolor=\color{blue!80!black}}
-
 
 %----------------------------------------------------------------------------------------
 %	TILULOS
@@ -118,9 +101,145 @@ El patron Abstract Factory suele implementarse con metodos de fabricacion que ta
 
 \includegraphics[width=8cm]{Imagenes/imagen}
 
-La clase Hamburguesa extiende de Comida e implementa los tres métodos abstractos de Comida.
+\subsection{GitHub Actions}
+
+Permite automatizar, personalizar y ejecutar flujos de trabajo de desarrollo de software directamente en tu repositorio. Así mismo, permite descubrir, crear y compartir acciones para realizar incluso \textbf{CI/CD}, y combinar acciones en un flujo de trabajo personalizado. [1]
+
+GitHub Actions ayuda a automatizar tareas dentro del ciclo de vida del desarrollo de software. GitHub Actions está controlada por eventos, lo que significa que puede ejecutar una serie de comandos después de que haya ocurrido un evento específico. Por ejemplo, cada vez que alguien crea \textit{pull request} para un repositorio, puede ejecutar automáticamente un comando que ejecuta un script de prueba de software. [2]
+
+\subsubsection{Componentes}
+
+\begin{figure}[h]
+    \includegraphics[width = \columnwidth]{./Imagenes/overview-actions-design.png}
+    \caption{Diagrama de componentes en GitHub Actions}
+\end{figure}
+
+A continuación, se describirán los componentes de GitHub Actions. [2]
+
+\begin{description}
+    
+    \item[Workflows]
+    El flujo de trabajo (\textit{workflow}) es un procedimiento automatizado que agrega a su repositorio. Los flujos de trabajo se componen de uno o más trabajos (\textit{jobs}) y pueden ser programados o activados por un evento (\textit{event}). El flujo de trabajo se puede usar para:
+    
+    \begin{itemize}
+        \item Crear
+        \item Probar
+        \item Empaquetar
+        \item Lanzar
+        \item Implementar
+    \end{itemize}
+
+    \item[Events]
+    Un evento (\textit{event}) es una actividad específica que desencadena un flujo de trabajo. Por ejemplo, la actividad puede originarse en GitHub cuando alguien:
+
+    \begin{itemize}
+        \item Ejecuta un \textbf{push}
+        \item Crea un problema (\textit{issue})
+        \item Crea un \textbf{pull request}
+    \end{itemize}
+
+    \item[Jobs]
+    Un trabajo (\textit{job}) es un conjunto de pasos (\textit{steps}) que se ejecutan en el mismo \textit{runner}. De forma predeterminada, un flujo de trabajo con varios trabajos ejecutará esos trabajos en paralelo, pero también puede hacerlo de forma secuencial. Por ejemplo, un flujo de trabajo puede tener dos trabajos secuenciales que compilan y prueban código, donde el trabajo de prueba depende del estado del trabajo de compilación. Si el trabajo de compilación falla, el trabajo de prueba no se ejecutará.
+
+    \item[Steps]
+    Un paso (\textit{step}) es una tarea individual que puede ejecutar comandos en un trabajo. Un paso puede ser una acción o un comando de shell. Cada paso de un trabajo se ejecuta en el mismo \textit{runner}, lo que permite que las acciones de ese trabajo compartan datos entre sí.
+
+    \item[Actions]
+    Las acciones (\textit{actions}) son comandos independientes que se combinan en pasos para crear un trabajo. Las acciones son el bloque de construcción portátil más pequeño de un flujo de trabajo. Es posible crear sus propias acciones o utilizar acciones creadas por la comunidad de GitHub. Para usar una acción en un flujo de trabajo, debe incluirla como un paso.
+
+    \item[Runners]
+    Un runner es un servidor que tiene instalada la aplicación de ejecución de acciones de GitHub. Puede utilizar un runner alojado en GitHub, o puede alojar el suyo propio. Un runner escucha los trabajos disponibles, ejecuta un trabajo a la vez e informa el progreso, los registros y los resultados a GitHub. Para los ejecutores alojados en GitHub, cada trabajo de un flujo de trabajo se ejecuta en un entorno virtual nuevo.
+
+    Los runners alojados en GitHub se basan en:
+
+    \begin{itemize}
+        \item Ubuntu Linux
+        \item Microsoft Windows
+        \item macOS
+    \end{itemize}
 
 
+\end{description}
+
+\subsubsection{YAML}
+
+YAML es un lenguaje de serialización de datos diseñado para ser \textit{leído y escrito por humanos}. Basa su funcionalidad en JSON, con la adición de líneas nuevas e indentación inspirada en Python. A diferencia de Python, YAML no permite tabulaciones literales. [3]
+
+Las GitHub Actions utiliza la sintaxis YAML para definir los eventos, trabajos y pasos. Estos archivos YAML se almacenan en el repositorio, en el directorio \textbf{.github/workflows}. [2]
+
+\subsubsection{Ejemplo}
+
+Se puede crear un flujo de trabajo de ejemplo en un repositorio que activa automáticamente una serie de comandos cada vez que se realiza un \textbf{push}. En este flujo de trabajo, GitHub Actions verifica el código enviado, instala las dependencias del software y ejecuta \textbf{bats -v}.
+
+Los pasos para crear este flujo de trabajo son los siguientes:
+
+\begin{enumerate}
+
+    \item Crear un repositorio en GitHub.
+    \item Crear un nuevo archivo \textbf{learn-github-actions.yml} en el directorio \textbf{.github/workflows/} con el siguiente código:
+
+\begin{verbatim}
+name: learn-github-actions
+on: [push]
+jobs:
+  check-bats-version:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+      - run: npm install -g bats
+      - run: bats -v
+\end{verbatim}
+
+\begin{figure}[h]
+    \includegraphics[width = \columnwidth]{Imagenes/Screenshot_1.png}
+    \caption{Captura de la ruta del archivo creado}
+\end{figure}
+
+    \item Guardar los cambios (\textit{commit})
+
+\end{enumerate}
+
+Cada vez que se haga \textit{push} al repositorio, se ejecutará el flujo de trabajo creado.
+
+Es posible ver la actividad de los flujos en la pestaña \textbf{Actions}. Al abrir un workflow se puede ver los pasos y los logs generados en cada uno.
+
+\begin{figure}[!h]
+    \begin{center}
+        \includegraphics[width = 2in]{./Imagenes/Screenshot_2.png}
+        \caption{Captura del flujo de trabajo en la pestaña Actions}
+    \end{center}
+\end{figure}
+
+\subsubsection{Precios}
+
+El uso de GitHub Actions es gratuito para los repositorios públicos. Para los repositorios privados, cada cuenta de GitHub recibe una cantidad determinada de minutos y almacenamiento gratuitos dependiendo del producto que se utilice con la cuenta.
+
+\begin{table}[]
+\begin{tabular}{|l|l|l|}
+\hline
+\rowcolor[HTML]{6665CD} 
+\multicolumn{1}{|c|}{\cellcolor[HTML]{6665CD}{\color[HTML]{FFFFFF} \textbf{Producto}}} & \multicolumn{1}{c|}{\cellcolor[HTML]{6665CD}{\color[HTML]{FFFFFF} \textbf{Almacenamiento}}} & \multicolumn{1}{c|}{\cellcolor[HTML]{6665CD}{\color[HTML]{FFFFFF} \textbf{Minutos (por mes)}}} \\ \hline
+GitHub Free                                                                            & 500 MB                                                                                      & 2,000                                                                                          \\ \hline
+GitHub Pro                                                                             & 1 GB                                                                                        & 3,000                                                                                          \\ \hline
+GitHub Free para organizaciones                                                        & 500 MB                                                                                      & 2,000                                                                                          \\ \hline
+GitHub Team                                                                            & 2 GB                                                                                        & 3,000                                                                                          \\ \hline
+GitHub Enterprise Cloud                                                                & 50 GB                                                                                       & 50,000                                                                                         \\ \hline
+\end{tabular}
+\end{table}
+
+Cada sistema operativo consume una cantidad diferente de minutos, siendo 1 minuto de trabajos ejecutados en Linux equivalente a 1 minuto de facturación mensual.
+
+\begin{table}[]
+\begin{tabular}{|l|l|l|}
+\hline
+\rowcolor[HTML]{6665CD} 
+\multicolumn{1}{|c|}{\cellcolor[HTML]{6665CD}{\color[HTML]{FFFFFF} \textbf{Sistema operativo}}} & \multicolumn{1}{c|}{\cellcolor[HTML]{6665CD}{\color[HTML]{FFFFFF} \textbf{Tasa por minuto}}} & \multicolumn{1}{c|}{\cellcolor[HTML]{6665CD}{\color[HTML]{FFFFFF} \textbf{Multiplicador de minutos}}} \\ \hline
+Linux                                                                                           & \$0.008                                                                                      & 1                                                                                                     \\ \hline
+macOS                                                                                           & \$0.08                                                                                       & 10                                                                                                    \\ \hline
+Windows                                                                                         & \$0.016                                                                                      & 2                                                                                                     \\ \hline
+\end{tabular}
+\end{table}
 
 %----------------------------------------------------------------------------------------
 %	Conclusiones
@@ -152,18 +271,13 @@ La conclusión
 \selectlanguage{spanish}
 \begin{thebibliography}{99} 
 
-\bibitem[1]{}
+\bibitem[0]{}
 \newblock Gamma, Erich; Helm, Richard; Johnson, Ralph; Vlissides, John(1995).Design Patterns: Elements of Reusable Object- Oriented Software. Reading,Massachusetts: Addison Wesley Longman, Inc.
 
-\bibitem[2]{}
-\newblock Nesteruk, D. (2019). Design Patterns in .NET: Reusable Approaches C\# in and F\# for Object-Oriented Software Design (1st ed.). Apress.
-
-\bibitem[3]{}
-\newblock Patrones de Diseño. Elementos de software orientado a objetos reutilizable. ERICH GAMMA. RICHARD HELM. RALPH JOHNSON. JOHN VLISSIDES.
-
-\bibitem[4]{}
-\newblock Patrones de diseño en Java: Los 23 modelos de diseño: descripción y solución ilustradas en UML 2 y Java Autor: Laurent Debrauwer
-
+[1] https://docs.github.com/es/free-pro-team@latest/actions
+[2] https://docs.github.com/es/free-pro-team@latest/actions/learn-github-actions/introduction-to-github-actions
+[3] https://learnxinyminutes.com/docs/es-es/yaml-es/
+[4] https://docs.github.com/es/free-pro-team@latest/github/setting-up-and-managing-billing-and-payments-on-github/about-billing-for-github-actions
 \end{thebibliography}
 
 
