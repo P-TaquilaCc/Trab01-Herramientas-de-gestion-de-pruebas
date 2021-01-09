@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.10.8)  9 JAN 2021 08:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.10.8)  9 JAN 2021 08:22
 entering extended mode
 **./articulo.tex
 (articulo.tex
@@ -480,28 +480,7 @@ mode.def
 File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count299
 \l__pdf_internal_box=\box53
-) (articulo.aux
-LaTeX Info: Redefining \. on input line 26.
-LaTeX Info: Redefining \% on input line 26.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-LaTeX Info: Redefining \. on input line 64.
-LaTeX Info: Redefining \% on input line 64.
-)
+) (articulo.aux)
 \openout1 = `articulo.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
@@ -845,79 +824,101 @@ Underfull \hbox (badness 10000) in paragraph at lines 384--385
  []
 
 
-Underfull \hbox (badness 1484) in paragraph at lines 386--387
+Underfull \hbox (badness 10000) in paragraph at lines 387--388
+[] \T1/pplx/m/n/10 (+20) https://azure.microsoft.com/es-
+ []
+
+
+Underfull \hbox (badness 1484) in paragraph at lines 390--391
 [] \T1/pplx/m/n/10 (+20) Yer-makha-nov, M. (2020, 11 di-ciem-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 386--387
+Underfull \hbox (badness 10000) in paragraph at lines 390--391
 \T1/pplx/m/n/10 (+20) bre). Azu-re Pi-pe-li-nes vs. GitHub
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 386--387
+Underfull \hbox (badness 10000) in paragraph at lines 390--391
 \T1/pplx/m/n/10 (+20) Ac-tions: Key Dif-fe-ren-ces. Me-dium.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 386--387
+Underfull \hbox (badness 10000) in paragraph at lines 390--391
 \T1/pplx/m/n/10 (+20) pipelines-vs-github-actions-key-
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 394.
+
+Overfull \hbox (58.22304pt too wide) in paragraph at lines 393--395
+[] \T1/pplx/m/n/10 (-20) https://www.javiergarzas.com/2013/10/herramientas-
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 402.
 [7pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has
  been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.394 \end{document}
+l.402 \end{document}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{cite.}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.394 \end{document}
+l.402 \end{document}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{cite.}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.394 \end{document}
+l.402 \end{document}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{cite.}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.394 \end{document}
+l.402 \end{document}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{cite.}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.394 \end{document}
+l.402 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{cite.}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.402 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{cite.}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.402 \end{document}
                     ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 394.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 402.
  (articulo.aux
 LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
-LaTeX Info: Redefining \. on input line 64.
-LaTeX Info: Redefining \% on input line 64.
+LaTeX Info: Redefining \. on input line 66.
+LaTeX Info: Redefining \% on input line 66.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 394.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 394.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 402.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 402.
 Package rerunfilecheck Info: File `articulo.out' has not changed.
 (rerunfilecheck)             Checksum: CBBB737891B934430FC303F83251BC71;1272.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 394.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 402.
  ) 
 Here is how much of TeX's memory you used:
- 13570 strings out of 480790
- 212091 string characters out of 2897301
- 535958 words of memory out of 3000000
- 29015 multiletter control sequences out of 15000+200000
+ 13572 strings out of 480790
+ 212119 string characters out of 2897301
+ 535690 words of memory out of 3000000
+ 29017 multiletter control sequences out of 15000+200000
  592112 words of font info for 281 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,14n,45p,563b,489s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -929,7 +930,7 @@ l/fplrc8a.pfb><C:/Users/Percy/AppData/Local/Programs/MiKTeX/fonts/type1/urw/pal
 atino/uplb8a.pfb><C:/Users/Percy/AppData/Local/Programs/MiKTeX/fonts/type1/urw/
 palatino/uplr8a.pfb><C:/Users/Percy/AppData/Local/Programs/MiKTeX/fonts/type1/u
 rw/palatino/uplri8a.pfb>
-Output written on articulo.pdf (7 pages, 406383 bytes).
+Output written on articulo.pdf (7 pages, 406703 bytes).
 PDF statistics:
  198 PDF objects out of 1000 (max. 8388607)
  38 named destinations out of 1000 (max. 500000)
