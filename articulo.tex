@@ -173,7 +173,16 @@ Las GitHub Actions utiliza la sintaxis YAML para definir los eventos, trabajos y
 
 \subsubsection{Ejemplo}
 
+
+
 Se puede crear un flujo de trabajo de ejemplo en un repositorio que activa automáticamente una serie de comandos cada vez que se realiza un \textbf{push}. En este flujo de trabajo, GitHub Actions verifica el código enviado, instala las dependencias del software y ejecuta \textbf{bats -v}.
+
+\begin{figure}[!h]
+    \begin{center}
+        \includegraphics[width = 2in]{./Imagenes/Screenshot_2.png}
+        \caption{Captura del flujo de trabajo en la pestaña Actions}
+    \end{center}
+\end{figure}
 
 Los pasos para crear este flujo de trabajo son los siguientes:
 
@@ -208,17 +217,6 @@ Cada vez que se haga \textit{push} al repositorio, se ejecutará el flujo de tra
 
 Es posible ver la actividad de los flujos en la pestaña \textbf{Actions}. Al abrir un workflow se puede ver los pasos y los logs generados en cada uno.
 
-\begin{figure}[!h]
-    \begin{center}
-        \includegraphics[width = 2in]{./Imagenes/Screenshot_2.png}
-        \caption{Captura del flujo de trabajo en la pestaña Actions}
-    \end{center}
-\end{figure}
-
-\subsubsection{Precios}
-
-El uso de GitHub Actions es gratuito para los repositorios públicos. Para los repositorios privados, cada cuenta de GitHub recibe una cantidad determinada de minutos y almacenamiento gratuitos dependiendo del producto que se utilice con la cuenta.
-
 \begin{table*}[ht]
 \begin{center}
 \begin{tabular}{|l|l|l|}
@@ -235,8 +233,6 @@ GitHub Enterprise Cloud                                                         
 \caption{Tabla de los productos ofrecidos por GitHub, Almacenamiento y minutos mensuales}
 \end{table*}
 
-Cada sistema operativo consume una cantidad diferente de minutos, siendo 1 minuto de trabajos ejecutados en Linux equivalente a 1 minuto de facturación mensual.
-
 \begin{table*}[ht]
 \begin{center}
 \begin{tabular}{|l|l|l|}
@@ -250,6 +246,14 @@ Windows                                                                         
 \end{center}
 \caption{Tabla de los sistemas operativos soportados, la tasa por minuto en dólares y el multiplicador}
 \end{table*}
+
+\subsubsection{Precios}
+
+El uso de GitHub Actions es gratuito para los repositorios públicos. Para los repositorios privados, cada cuenta de GitHub recibe una cantidad determinada de minutos y almacenamiento gratuitos dependiendo del producto que se utilice con la cuenta.
+
+
+Cada sistema operativo consume una cantidad diferente de minutos, siendo 1 minuto de trabajos ejecutados en Linux equivalente a 1 minuto de facturación mensual.
+
 
 \subsection{Jenkins}
 
@@ -332,6 +336,13 @@ Distribuye aplicaciones en contenedores con más rapidez
 
 \subsection{Comparación}
 
+\begin{figure*}[htb]
+\centering
+\includegraphics[width=1\textwidth]{./Imagenes/2.png}
+\caption{Diferencias entre Azure Pipeline y GitHub Actions}
+\label{fig:mont}
+\end{figure*}
+
 \subsubsection{Jenkins y Github Actions}
 
 \textbf{Diferencias}
@@ -358,17 +369,6 @@ Distribuye aplicaciones en contenedores con más rapidez
     \item Los pasos o tareas se pueden reutilizar y compartir con la comunidad.
 \end{itemize}
 
-\textbf{Diferencias entre Azure Pipeline y GitHub Actions}[7]
-
-\begin{figure*}[htb]
-\centering
-\includegraphics[width=1\textwidth]{./Imagenes/2.png}
-\caption{Diferencias entre Azure Pipeline y GitHub Actions}
-\label{fig:mont}
-\end{figure*}
-
-A pesar de usar, la sintaxis YAML, Azure Pipelines y GitHub Actions tienen \textit{Keywords} diferentes con un significado estructural similar.
-
 \begin{figure}[t]
     \begin{center}
         \includegraphics[width = \columnwidth]{./Imagenes/1 iwr4M9D-eSbMV8ki5xbU2w.png}
@@ -376,11 +376,17 @@ A pesar de usar, la sintaxis YAML, Azure Pipelines y GitHub Actions tienen \text
     \end{center}
 \end{figure}
 
+\textbf{Diferencias entre Azure Pipeline y GitHub Actions}[7]
+
+A pesar de usar, la sintaxis YAML, Azure Pipelines y GitHub Actions tienen \textit{Keywords} diferentes con un significado estructural similar.
+
+
+
 %----------------------------------------------------------------------------------------
 %	Conclusiones
 %----------------------------------------------------------------------------------------
 
-\newpage \newpage
+\newpage
 
 \section{Conclusiones}
 
@@ -425,14 +431,20 @@ La realización de este artículo permite entender que la gestión de las prueba
 \newblock Cottman, B. H. (2020, 9 julio). Will Github Actions Kill off Jenkins? - The Startup. Medium. https://medium.com/swlh/will-github-actions-kill-off-jenkins-f85e614bb8d3
 
 \bibitem[6]{}
-\newblock https://azure.microsoft.com/es-es/overview/what-is-devops/
+\newblock Microsoft Azure. (n.d.). ¿Qué es DevOps? Explicación de DevOps | Microsoft Azure. Retrieved January 9, 2021, from https://azure.microsoft.com/es-es/overview/what-is-devops/
 
 \bibitem[7]{}
 \newblock Yermakhanov, M. (2020, 11 diciembre). Azure Pipelines vs. GitHub Actions: Key Differences. Medium. https://medium.com/objectsharp/azure-pipelines-vs-github-actions-key-differences-45390ab132ee
 
 \bibitem[8]{}
-\newblock 
-https://www.javiergarzas.com/2013/10/herramientas-de-gestion-de-pruebas.html\#:~:text=Las%20herramientas%20de%20gesti%C3%B3n%20de,de%20pasar%20dichos%20test%2C%20etc.
+\newblock J.G. (2013, October 23). Análisis y comparativa de herramientas de gestión de pruebas de uso gratuito. Javier Garzas. https://www.javiergarzas.com/2013/10/herramientas-de-gestion-de-pruebas.html
+
+\bibitem[9]{}
+\newblock Yermakhanov, M. (2020, 11 diciembre). Azure Pipelines vs. GitHub Actions: Key Differences. Medium. https://medium.com/objectsharp/azure-pipelines-vs-github-actions-key-differences-45390ab132ee
+\bibitem[10]{}
+\newblock Jenkins. (n.d.). Jenkins Documentation. Jenkins User Documentation. Retrieved January 9, 2021, from https://www.jenkins.io/doc/
+\bibitem[11]{}
+\newblock Jenkins. (n.d.-a). Getting started with the Guided Tour. Jenkins Documentation. Retrieved January 9, 2021, from https://www.jenkins.io/doc/pipeline/tour/getting-started/
 
 \end{thebibliography}
 
