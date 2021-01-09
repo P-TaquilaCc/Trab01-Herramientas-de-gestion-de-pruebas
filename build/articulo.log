@@ -1,145 +1,120 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.10.9)  8 JAN 2021 22:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.14)  9 JAN 2021 02:49
 entering extended mode
-**./articulo.tex
-(articulo.tex
-LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-06-18>
-("C:\Program Files\MiKTeX\tex/latex/base\article.cls"
-Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
-("C:\Program Files\MiKTeX\tex/latex/base\size10.clo"
-File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+**d:/Escritorio/Trab01-Herramientas-de-gestion-de-pruebas/articulo.tex
+(d:/Escritorio/Trab01-Herramientas-de-gestion-de-pruebas/articulo.tex
+LaTeX2e <2020-10-01> patch level 1
+L3 programming layer <2020-10-05> xparse <2020-03-03> (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
-\c@part=\count167
-\c@section=\count168
-\c@subsection=\count169
-\c@subsubsection=\count170
-\c@paragraph=\count171
-\c@subparagraph=\count172
-\c@figure=\count173
-\c@table=\count174
+\c@part=\count175
+\c@section=\count176
+\c@subsection=\count177
+\c@subsubsection=\count178
+\c@paragraph=\count179
+\c@subparagraph=\count180
+\c@figure=\count181
+\c@table=\count182
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
-\bibindent=\dimen134
-)
-("C:\Program Files\MiKTeX\tex/latex/blindtext\blindtext.sty"
+\bibindent=\dimen138
+) (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/blindtext\blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
-
-("C:\Program Files\MiKTeX\tex/latex/tools\xspace.sty"
+ (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count175
-\c@Blindtext=\count176
-\c@blind@countparstart=\count177
-\blind@countxx=\count178
-\blindtext@numBlindtext=\count179
-\blind@countyy=\count180
-\c@blindlist=\count181
-\c@blindlistlevel=\count182
-\c@blindlist@level=\count183
-\blind@listitem=\count184
-\c@blind@listcount=\count185
-\c@blind@levelcount=\count186
-\blind@mathformula=\count187
-\blind@Mathformula=\count188
-\c@blind@randomcount=\count189
-\c@blind@randommax=\count190
-\c@blind@pangramcount=\count191
-\c@blind@pangrammax=\count192
-)
-("C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty"
-Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
-
-("C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty"
+\c@blindtext=\count183
+\c@Blindtext=\count184
+\c@blind@countparstart=\count185
+\blind@countxx=\count186
+\blindtext@numBlindtext=\count187
+\blind@countyy=\count188
+\c@blindlist=\count189
+\c@blindlistlevel=\count190
+\c@blindlist@level=\count191
+\blind@listitem=\count192
+\c@blind@listcount=\count193
+\c@blind@levelcount=\count194
+\blind@mathformula=\count195
+\blind@Mathformula=\count196
+\c@blind@randomcount=\count197
+\c@blind@randommax=\count198
+\c@blind@pangramcount=\count199
+\c@blind@pangrammax=\count266
+) (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
-)
-("C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty"
-Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
-
-("C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty"
+) (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-("C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg"
+) (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
-
-("C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def"
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+ (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen135
-\Gin@req@width=\dimen136
-)
-(C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/latex/psnfss\mathpazo.sty
+\Gin@req@height=\dimen139
+\Gin@req@width=\dimen140
+) (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\mathpazo.sty
 Package: mathpazo 2020/03/25 PSNFSS-v9.3 Palatino w/ Pazo Math (D.Puga, WaS) 
 \symupright=\mathgroup4
-)
-("C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty"
-Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+pplx on input line 1
-12.
-
-(C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/latex/psnfss\t1pplx.fd
+) (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+pplx on input line 112.
+ (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pplx.fd
 File: t1pplx.fd 2004/09/06 font definitions for T1/pplx.
-))
-(C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/latex/microtype\microtype.sty
+)) (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.sty
 Package: microtype 2019/11/18 v2.7d Micro-typographical refinements (RS)
 \MT@toks=\toks16
-\MT@count=\count193
+\MT@count=\count267
 LaTeX Info: Redefining \textls on input line 790.
-\MT@outer@kern=\dimen137
+\MT@outer@kern=\dimen141
 LaTeX Info: Redefining \textmicrotypecontext on input line 1354.
-\MT@listname@count=\count194
-
-(C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/latex/microtype\microtype-pdftex.
-def
+\MT@listname@count=\count268
+ (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdftex.def
 File: microtype-pdftex.def 2019/11/18 v2.7d Definitions specific to pdftex (RS)
-
 LaTeX Info: Redefining \lsstyle on input line 914.
 LaTeX Info: Redefining \lslig on input line 914.
 \MT@outer@space=\skip49
 )
 Package microtype Info: Loading configuration file microtype.cfg.
-
-(C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/latex/microtype\microtype.cfg
+ (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cfg
 File: microtype.cfg 2019/11/18 v2.7d microtype main configuration file (RS)
-))
-("C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty"
-Package: inputenc 2018/08/11 v1.3c Input encoding file
+)) (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2020/08/01 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
-)
-("C:\Program Files\MiKTeX\tex/generic/babel\babel.sty"
-Package: babel 2020/06/10 3.45 The Babel package
-
-("C:\Program Files\MiKTeX\tex/generic/babel\babel.def"
-File: babel.def 2020/06/10 3.45 Babel common definitions
-\babel@savecnt=\count195
-\U@D=\dimen138
+) (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2020/10/06 3.50 The Babel package
+ (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
+File: babel.def 2020/10/06 3.50 Babel common definitions
+\babel@savecnt=\count269
+\U@D=\dimen142
 \l@babelnohyphens=\language79
-
-("C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def")
+ (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
 )
-\bbl@dirlevel=\count196
+\bbl@dirlevel=\count270
 
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Program Files\MiKTeX\tex/latex/arabi\bblopts.cfg"
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
- babel
-)
-(C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/latex/babel-spanish\spanish.ldf
+(C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spanish.ldf
 Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
 \es@quottoks=\toks19
-\es@quotdepth=\count197
+\es@quotdepth=\count271
 Package babel Info: Making " an active character on input line 561.
 Package babel Info: Making . an active character on input line 662.
 Package babel Info: Making < an active character on input line 707.
 Package babel Info: Making > an active character on input line 707.
-)
-("C:\Program Files\MiKTeX\tex/latex/babel-english\english.ldf"
+) (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: \l@canadian = using hyphenrules for english
 (babel)             (\language0) on input line 102.
@@ -147,172 +122,146 @@ Package babel Info: \l@australian = using hyphenrules for ukenglish
 (babel)             (\language73) on input line 105.
 Package babel Info: \l@newzealand = using hyphenrules for ukenglish
 (babel)             (\language73) on input line 108.
-))
-(C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.sty
+)) (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
-
-("C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty"
+ (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-
-("C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty"
+ (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-\Gm@cnth=\count198
-\Gm@cntv=\count199
-\c@Gm@tempcnt=\count266
-\Gm@bindingoffset=\dimen139
-\Gm@wd@mp=\dimen140
-\Gm@odd@mp=\dimen141
-\Gm@even@mp=\dimen142
-\Gm@layoutwidth=\dimen143
-\Gm@layoutheight=\dimen144
-\Gm@layouthoffset=\dimen145
-\Gm@layoutvoffset=\dimen146
+\Gm@cnth=\count272
+\Gm@cntv=\count273
+\c@Gm@tempcnt=\count274
+\Gm@bindingoffset=\dimen143
+\Gm@wd@mp=\dimen144
+\Gm@odd@mp=\dimen145
+\Gm@even@mp=\dimen146
+\Gm@layoutwidth=\dimen147
+\Gm@layoutheight=\dimen148
+\Gm@layouthoffset=\dimen149
+\Gm@layoutvoffset=\dimen150
 \Gm@dimlist=\toks20
-
-(C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.cfg))
-(C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/latex/caption\caption.sty
+ (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2020/09/12 v3.5b Customizing captions (AR)
-
-(C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/latex/caption\caption3.sty
+ (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2020/09/17 v2.1b caption3 kernel (AR)
-\captionmargin=\dimen147
-\captionmargin@=\dimen148
-\captionwidth=\dimen149
-\caption@tempdima=\dimen150
-\caption@indent=\dimen151
-\caption@parindent=\dimen152
-\caption@hangindent=\dimen153
+\captionmargin=\dimen151
+\captionmargin@=\dimen152
+\captionwidth=\dimen153
+\caption@tempdima=\dimen154
+\caption@indent=\dimen155
+\caption@parindent=\dimen156
+\caption@hangindent=\dimen157
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count267
-\c@continuedfloat=\count268
-)
-(C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/latex/booktabs\booktabs.sty
+\c@caption@flags=\count275
+\c@continuedfloat=\count276
+) (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen154
-\lightrulewidth=\dimen155
-\cmidrulewidth=\dimen156
-\belowrulesep=\dimen157
-\belowbottomsep=\dimen158
-\aboverulesep=\dimen159
-\abovetopsep=\dimen160
-\cmidrulesep=\dimen161
-\cmidrulekern=\dimen162
-\defaultaddspace=\dimen163
-\@cmidla=\count269
-\@cmidlb=\count270
-\@aboverulesep=\dimen164
-\@belowrulesep=\dimen165
-\@thisruleclass=\count271
-\@lastruleclass=\count272
-\@thisrulewidth=\dimen166
-)
-(C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/latex/lettrine\lettrine.sty
+\heavyrulewidth=\dimen158
+\lightrulewidth=\dimen159
+\cmidrulewidth=\dimen160
+\belowrulesep=\dimen161
+\belowbottomsep=\dimen162
+\aboverulesep=\dimen163
+\abovetopsep=\dimen164
+\cmidrulesep=\dimen165
+\cmidrulekern=\dimen166
+\defaultaddspace=\dimen167
+\@cmidla=\count277
+\@cmidlb=\count278
+\@aboverulesep=\dimen168
+\@belowrulesep=\dimen169
+\@thisruleclass=\count279
+\@lastruleclass=\count280
+\@thisrulewidth=\dimen170
+) (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/lettrine\lettrine.sty
 File: lettrine.sty 2020-03-14 v2.23 (Daniel Flipo)
-
-(C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/generic/minifp\minifp.sty
-Package: minifp 2013/12/30 v0.96. Macros for real number operations and a stack
--based programing language.
-\MFP@loopctr=\count273
+ (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/generic/minifp\minifp.sty
+Package: minifp 2013/12/30 v0.96. Macros for real number operations and a stack-based programing language.
+\MFP@loopctr=\count281
 )
-\c@DefaultLines=\count274
-\c@DefaultDepth=\count275
-\DefaultFindent=\dimen167
-\DefaultNindent=\dimen168
-\DefaultSlope=\dimen169
-\DiscardVskip=\dimen170
-\L@lbox=\box45
-\L@tbox=\box46
-\c@L@lines=\count276
-\c@L@depth=\count277
-\L@Pindent=\dimen171
-\L@Findent=\dimen172
-\L@Nindent=\dimen173
-\L@lraise=\dimen174
-\L@first=\dimen175
-\L@next=\dimen176
-\L@slope=\dimen177
-\L@height=\dimen178
-\L@novskip=\dimen179
-\L@target@ht=\dimen180
-\L@target@dp=\dimen181
-\L@target@tht=\dimen182
-\LettrineWidth=\dimen183
-\LettrineHeight=\dimen184
-\LettrineDepth=\dimen185
+\c@DefaultLines=\count282
+\c@DefaultDepth=\count283
+\DefaultFindent=\dimen171
+\DefaultNindent=\dimen172
+\DefaultSlope=\dimen173
+\DiscardVskip=\dimen174
+\L@lbox=\box47
+\L@tbox=\box48
+\c@L@lines=\count284
+\c@L@depth=\count285
+\L@Pindent=\dimen175
+\L@Findent=\dimen176
+\L@Nindent=\dimen177
+\L@lraise=\dimen178
+\L@first=\dimen179
+\L@next=\dimen180
+\L@slope=\dimen181
+\L@height=\dimen182
+\L@novskip=\dimen183
+\L@target@ht=\dimen184
+\L@target@dp=\dimen185
+\L@target@tht=\dimen186
+\LettrineWidth=\dimen187
+\LettrineHeight=\dimen188
+\LettrineDepth=\dimen189
 \Llist@everypar=\toks21
 
 Loading lettrine.cfg
-(C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/latex/lettrine\lettrine.cfg))
-(C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/latex/enumitem\enumitem.sty
+(C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/lettrine\lettrine.cfg)) (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip50
-\enit@outerparindent=\dimen186
+\enit@outerparindent=\dimen190
 \enit@toks=\toks22
-\enit@inbox=\box47
-\enit@count@id=\count278
-\enitdp@description=\count279
-)
-(C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/latex/titling\titling.sty
+\enit@inbox=\box49
+\enit@count@id=\count286
+\enitdp@description=\count287
+) (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/titling\titling.sty
 Package: titling 2009/09/04 v2.1d maketitle typesetting
 \thanksmarkwidth=\skip51
 \thanksmargin=\skip52
 \droptitle=\skip53
-)
-("C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref.sty"
+) (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
-
-(C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+ (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-)
-("C:\Program Files\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty"
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+) (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-) (C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.sty
+) (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-)
-(C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys
-.sty
+) (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)
-(C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+) (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-)
-(C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/latex/hycolor\hycolor.sty
+) (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-)
-(C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty
+) (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-) (C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/latex/auxhook\auxhook.sty
+) (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-)
-(C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+) (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
-\@linkdim=\dimen187
-\Hy@linkcounter=\count280
-\Hy@pagecounter=\count281
-
-("C:\Program Files\MiKTeX\tex/latex/hyperref\pd1enc.def"
+\@linkdim=\dimen191
+\Hy@linkcounter=\count288
+\Hy@pagecounter=\count289
+ (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-)
-(C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/generic/intcalc\intcalc.sty
+) (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
-)
-(C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+) (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count282
+\Hy@SavedSpaceFactor=\count290
 Package hyperref Info: Hyper figures OFF on input line 4464.
 Package hyperref Info: Link nesting OFF on input line 4469.
 Package hyperref Info: Hyper index ON on input line 4472.
@@ -320,25 +269,21 @@ Package hyperref Info: Plain pages OFF on input line 4479.
 Package hyperref Info: Backreferencing OFF on input line 4484.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4717.
-\c@Hy@tempcnt=\count283
-
-("C:\Program Files\MiKTeX\tex/latex/url\url.sty"
+\c@Hy@tempcnt=\count291
+ (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5076.
-\XeTeXLinkMargin=\dimen188
-
-(C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/generic/bitset\bitset.sty
+\XeTeXLinkMargin=\dimen192
+ (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
-
-(C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
-)
+ (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count284
-\Field@Width=\dimen189
-\Fld@charsize=\dimen190
+\Fld@menulength=\count292
+\Field@Width=\dimen193
+\Fld@charsize=\dimen194
 Package hyperref Info: Hyper figures OFF on input line 6347.
 Package hyperref Info: Link nesting OFF on input line 6352.
 Package hyperref Info: Hyper index ON on input line 6355.
@@ -348,86 +293,75 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6372.
 Package hyperref Info: PDF/A mode OFF on input line 6377.
 LaTeX Info: Redefining \ref on input line 6417.
 LaTeX Info: Redefining \pageref on input line 6421.
- (C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/generic/atbegshi\atbegshi.sty
-Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+ (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi package
+with kernel methods
 )
-\Hy@abspage=\count285
-\c@Item=\count286
-\c@Hfootnote=\count287
+\Hy@abspage=\count293
+\c@Item=\count294
+\c@Hfootnote=\count295
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
- ("C:\Program Files\MiKTeX\tex/latex/hyperref\hpdftex.def"
+ (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
-
-(C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/latex/atveryend\atveryend.sty
-Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
+ (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery package
+with kernel methods
 )
-\Fld@listcount=\count288
-\c@bookmark@seq@number=\count289
-
-(C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/latex/rerunfilecheck\rerunfileche
-ck.sty
+\Fld@listcount=\count296
+\c@bookmark@seq@number=\count297
+ (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
-
-(C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/generic/uniquecounter\uniquecount
-er.sty
+ (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-86.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
 )
 \Hy@SectionHShift=\skip54
-) ("C:\Program Files\MiKTeX\tex/latex/listings\listings.sty"
-\lst@mode=\count290
-\lst@gtempboxa=\box48
+) (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count298
+\lst@gtempboxa=\box50
 \lst@token=\toks23
-\lst@length=\count291
-\lst@currlwidth=\dimen191
-\lst@column=\count292
-\lst@pos=\count293
-\lst@lostspace=\dimen192
-\lst@width=\dimen193
-\lst@newlines=\count294
-\lst@lineno=\count295
-\lst@maxwidth=\dimen194
-
-("C:\Program Files\MiKTeX\tex/latex/listings\lstmisc.sty"
+\lst@length=\count299
+\lst@currlwidth=\dimen195
+\lst@column=\count300
+\lst@pos=\count301
+\lst@lostspace=\dimen196
+\lst@width=\dimen197
+\lst@newlines=\count302
+\lst@lineno=\count303
+\lst@maxwidth=\dimen198
+ (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count296
-\lst@skipnumbers=\count297
-\lst@framebox=\box49
-)
-("C:\Program Files\MiKTeX\tex/latex/listings\listings.cfg"
+\c@lstnumber=\count304
+\lst@skipnumbers=\count305
+\lst@framebox=\box51
+) (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
-
-("C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty"
+ (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-("C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg"
+ (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
-
-(C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/latex/colortbl\colortbl.sty
+ (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
 Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
-
-("C:\Program Files\MiKTeX\tex/latex/tools\array.sty"
+ (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
-\col@sep=\dimen195
-\ar@mcellbox=\box50
-\extrarowheight=\dimen196
+\col@sep=\dimen199
+\ar@mcellbox=\box52
+\extrarowheight=\dimen256
 \NC@list=\toks24
 \extratabsurround=\skip55
 \backup@length=\skip56
-\ar@cellbox=\box51
+\ar@cellbox=\box53
 )
 \everycr=\toks25
 \minrowclearance=\skip57
 )
-\rownum=\count298
+\rownum=\count306
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
@@ -437,30 +371,26 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-)
-(C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/latex/abstract\abstract.sty
+) (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/abstract\abstract.sty
 Package: abstract 2009/06/08 v1.2a configurable abstracts
 \abstitleskip=\skip58
 \absleftindent=\skip59
 \absrightindent=\skip60
 \absparindent=\skip61
 \absparsep=\skip62
-)
-(C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/latex/titlesec\titlesec.sty
+) (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
-\ttl@box=\box52
+\ttl@box=\box54
 \beforetitleunit=\skip63
 \aftertitleunit=\skip64
-\ttl@plus=\dimen197
-\ttl@minus=\dimen198
+\ttl@plus=\dimen257
+\ttl@minus=\dimen258
 \ttl@toksa=\toks26
-\titlewidth=\dimen199
-\titlewidthlast=\dimen256
-\titlewidthfirst=\dimen257
-)
-(C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
-Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
-s
+\titlewidth=\dimen259
+\titlewidthlast=\dimen260
+\titlewidthfirst=\dimen261
+) (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
 \f@nch@headwidth=\skip65
 \f@nch@O@elh=\skip66
 \f@nch@O@erh=\skip67
@@ -470,18 +400,31 @@ s
 \f@nch@O@erf=\skip71
 \f@nch@O@olf=\skip72
 \f@nch@O@orf=\skip73
-)
-("C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdfmode.def"
-File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count299
-\l__pdf_internal_box=\box53
-)
-("E:\UPT EPIS 2020-II\Calidad y Pruebas de Software\UNIDAD III\Trab01-Herramien
-tas-de-gestion-de-pruebas\build\articulo.aux"
+) (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
+\l__kernel_color_stack_int=\count307
+\l__pdf_internal_box=\box55
+) (d:/Escritorio\Trab01-Herramientas-de-gestion-de-pruebas\build\articulo.aux
 LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
-LaTeX Info: Redefining \. on input line 43.
-LaTeX Info: Redefining \% on input line 43.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+LaTeX Info: Redefining \. on input line 55.
+LaTeX Info: Redefining \% on input line 55.
 )
 \openout1 = `articulo.aux'.
 
@@ -501,26 +444,24 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
 LaTeX Font Info:    ... okay on input line 77.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 77.
 LaTeX Font Info:    ... okay on input line 77.
-
-("C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii"
+ (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count300
-\scratchdimen=\dimen258
-\scratchbox=\box54
-\nofMPsegments=\count301
-\nofMParguments=\count302
+\scratchcounter=\count308
+\scratchdimen=\dimen262
+\scratchbox=\box56
+\nofMPsegments=\count309
+\nofMParguments=\count310
 \everyMPshowfont=\toks27
-\MPscratchCnt=\count303
-\MPscratchDim=\dimen259
-\MPnumerator=\count304
-\makeMPintoPDFobject=\count305
+\MPscratchCnt=\count311
+\MPscratchDim=\dimen263
+\MPnumerator=\count312
+\makeMPintoPDFobject=\count313
 \everyMPtoPDFconversion=\toks28
-) ("C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty"
+) (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
 )
-\big@size=\dimen260
+\big@size=\dimen264
 LaTeX Info: Redefining \microtypecontext on input line 77.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
@@ -532,8 +473,7 @@ LaTeX Info: Redefining \showhyphens on input line 77.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
-
-(C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-ppl.cfg
+ (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
 *geometry* driver: auto-detecting
@@ -575,60 +515,42 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box55
 Package hyperref Info: Link coloring OFF on input line 77.
-("C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty"
+(C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
-
-(C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/latex/refcount\refcount.sty
+ (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-)
-(C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/generic/gettitlestring\gettitlest
-ring.sty
+) (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count306
+\c@section@level=\count314
 )
 LaTeX Info: Redefining \ref on input line 77.
 LaTeX Info: Redefining \pageref on input line 77.
 LaTeX Info: Redefining \nameref on input line 77.
-
-("E:\UPT EPIS 2020-II\Calidad y Pruebas de Software\UNIDAD III\Trab01-Herramien
-tas-de-gestion-de-pruebas\build\articulo.out")
-("E:\UPT EPIS 2020-II\Calidad y Pruebas de Software\UNIDAD III\Trab01-Herramien
-tas-de-gestion-de-pruebas\build\articulo.out")
+ (d:/Escritorio\Trab01-Herramientas-de-gestion-de-pruebas\build\articulo.out) (d:/Escritorio\Trab01-Herramientas-de-gestion-de-pruebas\build\articulo.out)
 \@outlinefile=\write3
 \openout3 = `articulo.out'.
 
-\c@lstlisting=\count307
-LaTeX Font Info:    Trying to load font information for OT1+pplx on input line 
-81.
-
-(C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/latex/psnfss\ot1pplx.fd
+\c@lstlisting=\count315
+LaTeX Font Info:    Trying to load font information for OT1+pplx on input line 81.
+ (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pplx.fd
 File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
 )
-LaTeX Font Info:    Trying to load font information for OML+zplm on input line 
-81.
-
-(C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/latex/psnfss\omlzplm.fd
+LaTeX Font Info:    Trying to load font information for OML+zplm on input line 81.
+ (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
-81.
-
-(C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/latex/psnfss\omszplm.fd
+LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 81.
+ (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 
-81.
-
-(C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/latex/psnfss\omxzplm.fd
+LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 81.
+ (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
-81.
-
-(C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/latex/psnfss\ot1zplm.fd
+LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 81.
+ (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
 Package microtype Info: Loading generic protrusion settings for font family
@@ -648,166 +570,249 @@ Package lettrine.sty Info: Targeted height = 30.07506pt
 (lettrine.sty)             Lettrine height = 30.07518pt (L);
 (lettrine.sty)             reported on input line 88.
 
-Underfull \vbox (badness 1122) has occurred while \output is active []
+Underfull \vbox (badness 5563) has occurred while \output is active []
 
-<Imagenes/imagen.png, id=39, 349.305pt x 189.70876pt>
-File: Imagenes/imagen.png Graphic file (type png)
-<use Imagenes/imagen.png>
-Package pdftex.def Info: Imagenes/imagen.png  used on input line 105.
-(pdftex.def)             Requested size: 227.62204pt x 123.62474pt.
-
-Overfull \hbox (22.61974pt too wide) in paragraph at lines 105--106
-[] 
- []
-
-[1{C:/Users/KATHERIN/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
+ [1{C:/Users/AbrahamLIPACALABILLA/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
 
- <./Imagenes/imagen.png>]
-<./Imagenes/overview-actions-design.png, id=51, 332.24126pt x 344.28625pt>
+]
+LaTeX Font Info:    Trying to load font information for TS1+pplx on input line 109.
+ (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1pplx.fd
+File: ts1pplx.fd 2004/09/06 font definitions for TS1/pplx.
+)
+<./Imagenes/overview-actions-design.png, id=64, 332.24126pt x 344.28625pt>
 File: ./Imagenes/overview-actions-design.png Graphic file (type png)
 <use ./Imagenes/overview-actions-design.png>
-Package pdftex.def Info: ./Imagenes/overview-actions-design.png  used on input 
-line 116.
+Package pdftex.def Info: ./Imagenes/overview-actions-design.png  used on input line 117.
 (pdftex.def)             Requested size: 205.0023pt x 212.43611pt.
-LaTeX Font Info:    Trying to load font information for TS1+pplx on input line 
-128.
-
-(C:\Users\KATHERIN\AppData\Roaming\MiKTeX\tex/latex/psnfss\ts1pplx.fd
-File: ts1pplx.fd 2004/09/06 font definitions for TS1/pplx.
-) [2 <./Imagenes/overview-actions-design.png (PNG copy)>]
-Underfull \hbox (badness 1132) in paragraph at lines 182--183
+ [2 <./Imagenes/overview-actions-design.png (PNG copy)>]
+Underfull \hbox (badness 1132) in paragraph at lines 183--184
 []\T1/pplx/m/n/10 (+20) Crear un nuevo archivo \T1/pplx/b/n/10 learn-github-
  []
 
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-84.
-("C:\Program Files\MiKTeX\tex/latex/base\t1cmtt.fd"
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 185.
+(C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<Imagenes/Screenshot_1.png, id=58, 493.845pt x 332.74312pt>
+<Imagenes/Screenshot_1.png, id=71, 493.845pt x 332.74312pt>
 File: Imagenes/Screenshot_1.png Graphic file (type png)
 <use Imagenes/Screenshot_1.png>
-Package pdftex.def Info: Imagenes/Screenshot_1.png  used on input line 198.
+Package pdftex.def Info: Imagenes/Screenshot_1.png  used on input line 199.
 (pdftex.def)             Requested size: 205.0023pt x 138.12643pt.
-<./Imagenes/Screenshot_2.png, id=59, 236.38312pt x 331.2375pt>
+<./Imagenes/Screenshot_2.png, id=73, 236.38312pt x 331.2375pt>
 File: ./Imagenes/Screenshot_2.png Graphic file (type png)
 <use ./Imagenes/Screenshot_2.png>
-Package pdftex.def Info: ./Imagenes/Screenshot_2.png  used on input line 212.
+Package pdftex.def Info: ./Imagenes/Screenshot_2.png  used on input line 213.
 (pdftex.def)             Requested size: 144.54pt x 202.54483pt.
- [3 <./Imagenes/Screenshot_1.png> <./Imagenes/Screenshot_2.png>]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 221.
 
 
-Overfull \hbox (143.26758pt too wide) in paragraph at lines 222--232
-[][] 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3 <./Imagenes/Screenshot_1.png>]
+Underfull \vbox (badness 2941) has occurred while \output is active []
+
+ [4 <./Imagenes/Screenshot_2.png>]
+Underfull \hbox (badness 2096) in paragraph at lines 288--289
+[]\T1/pplx/m/n/10 (+20) Azure Pipelines ad-mite aproba-ciones,
  []
 
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 236.
-
-
-Overfull \hbox (108.00769pt too wide) in paragraph at lines 237--245
-[][] 
- []
-
-LaTeX Info: Redefining \. on input line 274.
-LaTeX Info: Redefining \% on input line 274.
-
-Underfull \hbox (badness 10000) in paragraph at lines 280--284
-[]\T1/pplx/m/n/10 (+20) [1] https://docs.github.com/es/free-
+Underfull \hbox (badness 4569) in paragraph at lines 288--289
+\T1/pplx/m/it/10 (+20) gates \T1/pplx/m/n/10 (+20) y ver-i-fi-ca-ciones, mien-tras que
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 280--284
-\T1/pplx/m/n/10 (+20) pro-team@latest/actions [2]
+Underfull \hbox (badness 1152) in paragraph at lines 292--293
+[]\T1/pplx/m/n/10 (+20) Azure Pipelines so-porta Stages en el
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 280--284
+Underfull \hbox (badness 4543) in paragraph at lines 293--294
+[]\T1/pplx/m/n/10 (+20) Las ex-ten-siones de Azure Pipelines
+ []
+
+<./Imagenes/1 iwr4M9D-eSbMV8ki5xbU2w.png, id=92, 702.625pt x 496.85625pt>
+File: ./Imagenes/1 iwr4M9D-eSbMV8ki5xbU2w.png Graphic file (type png)
+<use ./Imagenes/1 iwr4M9D-eSbMV8ki5xbU2w.png>
+Package pdftex.def Info: ./Imagenes/1 iwr4M9D-eSbMV8ki5xbU2w.png  used on input line 304.
+(pdftex.def)             Requested size: 205.0023pt x 144.96405pt.
+
+Underfull \hbox (badness 1902) in paragraph at lines 305--305
+[][]|\T1/pplx/m/it/9 (+20) Tabla com-par-a-tiva de sin-taxis de Azure
+ []
+
+[5 <./Imagenes/1 iwr4M9D-eSbMV8ki5xbU2w.png (PNG copy)>]
+LaTeX Info: Redefining \. on input line 337.
+LaTeX Info: Redefining \% on input line 337.
+
+Underfull \hbox (badness 1917) in paragraph at lines 341--342
+\T1/pplx/m/n/10 (+20) Ac-tions - GitHub Docs. GitHub Ac-
+ []
+
+
+Underfull \hbox (badness 4505) in paragraph at lines 343--344
+[] \T1/pplx/m/n/10 (+20) GitHub. (s. f.-b). In-tro-duc-tion to
+ []
+
+
+Underfull \hbox (badness 2662) in paragraph at lines 343--344
+\T1/pplx/m/n/10 (+20) GitHub Ac-tions - GitHub Docs. In-
+ []
+
+
+Underfull \hbox (badness 8132) in paragraph at lines 343--344
+\T1/pplx/m/n/10 (+20) tro-duc-tion to GitHub Ac-tions. Re-
+ []
+
+
+Underfull \hbox (badness 4242) in paragraph at lines 343--344
+\T1/pplx/m/n/10 (+20) cu-pe-ra-do 9 de enero de 2021, de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 343--344
 \T1/pplx/m/n/10 (+20) https://docs.github.com/es/free-pro-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 280--284
+Underfull \hbox (badness 10000) in paragraph at lines 343--344
 \T1/pplx/m/n/10 (+20) team@latest/actions/learn-github-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 280--284
+Underfull \hbox (badness 1173) in paragraph at lines 345--346
+[] \T1/pplx/m/n/10 (+20) Leigh Bre-nec-ki, L. B. (s. f.). Learn
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 345--346
+\T1/pplx/m/n/10 (+20) yaml in Y Mi-nu-tes. Apren-de X
+ []
+
+
+Underfull \hbox (badness 4846) in paragraph at lines 345--346
+\T1/pplx/m/n/10 (+20) en Y mi-nu-tos Don-de X=yaml. Re-
+ []
+
+
+Underfull \hbox (badness 4242) in paragraph at lines 345--346
+\T1/pplx/m/n/10 (+20) cu-pe-ra-do 9 de enero de 2021, de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 345--346
 \T1/pplx/m/n/10 (+20) https://learnxinyminutes.com/docs/es-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 280--284
-\T1/pplx/m/n/10 (+20) es/yaml-es/ [4]
+Underfull \hbox (badness 1009) in paragraph at lines 347--348
+\T1/pplx/m/n/10 (+20) pa-ra GitHub Ac-tions - GitHub Docs.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 280--284
-\T1/pplx/m/n/10 (+20) https://docs.github.com/es/free-pro-
+Underfull \hbox (badness 10000) in paragraph at lines 347--348
+\T1/pplx/m/n/10 (+20) de https://docs.github.com/es/free-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 280--284
-\T1/pplx/m/n/10 (+20) team@latest/github/setting-up-and-
+Underfull \hbox (badness 10000) in paragraph at lines 347--348
+\T1/pplx/m/n/10 (+20) pro-team@latest/github/setting-up-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 280--284
-\T1/pplx/m/n/10 (+20) managing-billing-and-payments-on-
+Underfull \hbox (badness 10000) in paragraph at lines 347--348
+\T1/pplx/m/n/10 (+20) and-managing-billing-and-payments-on-
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 290.
-[4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 290.
 
-("E:\UPT EPIS 2020-II\Calidad y Pruebas de Software\UNIDAD III\Trab01-Herramien
-tas-de-gestion-de-pruebas\build\articulo.aux"
+Underfull \hbox (badness 7186) in paragraph at lines 349--350
+[] \T1/pplx/m/n/10 (+20) Cott-man, B. H. (2020, 9 ju-lio).
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
+\T1/pplx/m/n/10 (+20) Will Github Ac-tions Kill off Jen-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
+\T1/pplx/m/n/10 (+20) kins? - The Star-tup. Me-dium.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
+\T1/pplx/m/n/10 (+15) https://medium.com/swlh/will-github-
+ []
+
+
+Underfull \hbox (badness 1484) in paragraph at lines 351--352
+[] \T1/pplx/m/n/10 (+20) Yer-makha-nov, M. (2020, 11 di-ciem-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--352
+\T1/pplx/m/n/10 (+20) bre). Azu-re Pi-pe-li-nes vs. GitHub
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--352
+\T1/pplx/m/n/10 (+20) Ac-tions: Key Dif-fe-ren-ces. Me-dium.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--352
+\T1/pplx/m/n/10 (+20) pipelines-vs-github-actions-key-
+ []
+
+[6pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.359 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.359 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.359 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.359 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.359 \end{document}
+                    ] (d:/Escritorio\Trab01-Herramientas-de-gestion-de-pruebas\build\articulo.aux
 LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
-LaTeX Info: Redefining \. on input line 43.
-LaTeX Info: Redefining \% on input line 43.
+LaTeX Info: Redefining \. on input line 55.
+LaTeX Info: Redefining \% on input line 55.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 290.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 290.
+Package rerunfilecheck Info: File `articulo.out' has not changed.
+(rerunfilecheck)             Checksum: 597F9567CD7A7B1FF63B05D755322C85;835.
 
 
-Package rerunfilecheck Warning: File `articulo.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: Checksums for `articulo.out':
-(rerunfilecheck)             Before: 461E576EC5AF5BC65C1F436D3DB6E4C2;526
-(rerunfilecheck)             After:  6CA68ECFCA3C4F47F8E1AA5264C2D959;517.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 290.
  ) 
 Here is how much of TeX's memory you used:
- 13476 strings out of 480790
- 209493 string characters out of 2907046
- 533779 words of memory out of 3000000
- 28993 multiletter control sequences out of 15000+200000
- 588990 words of font info for 239 fonts, out of 3000000 for 9000
+ 13560 strings out of 480236
+ 216412 string characters out of 2873432
+ 577505 words of memory out of 3000000
+ 29565 multiletter control sequences out of 15000+200000
+ 594390 words of font info for 280 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,14n,45p,563b,489s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\KATHERIN\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\e
-ctt1000.pk>{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Fil
-es/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/KATHERIN/AppData/
-Roaming/MiKTeX/fonts/type1/public/fpl/fplrc8a.pfb><C:/Program Files/MiKTeX/font
-s/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/palati
-no/uplr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on "E:\UPT EPIS 2020-II\Calidad y Pruebas de Software\UNIDAD III
-\Trab01-Herramientas-de-gestion-de-pruebas\build\articulo.pdf" (4 pages, 164535
- bytes).
+ 60i,14n,66p,617b,491s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\AbrahamLIPACALABILLA\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk>{C:/Users/AbrahamLIPACALABILLA/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/AbrahamLIPACALABILLA/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/AbrahamLIPACALABILLA/AppData/Local/Programs/MiKTeX/fonts/type1/public/fpl/fplrc8a.pfb><C:/Users/AbrahamLIPACALABILLA/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/AbrahamLIPACALABILLA/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/AbrahamLIPACALABILLA/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on d:/Escritorio\Trab01-Herramientas-de-gestion-de-pruebas\build\articulo.pdf (6 pages, 264944 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
- 23 named destinations out of 1000 (max. 500000)
- 53853 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 159 PDF objects out of 1000 (max. 8388607)
+ 30 named destinations out of 1000 (max. 500000)
+ 53885 words of extra memory for PDF output out of 61914 (max. 10000000)
 

@@ -1,9 +1,13 @@
 \BOOKMARK [1][-]{section.1}{Introduccion}{}% 1
 \BOOKMARK [1][-]{section.2}{Desarrollo}{}% 2
 \BOOKMARK [2][-]{subsection.2.1}{GitHub Actions}{section.2}% 3
-\BOOKMARK [3][-]{subsubsection.2.1.1}{Componentes}{subsection.2.1}% 4
-\BOOKMARK [3][-]{subsubsection.2.1.2}{YAML}{subsection.2.1}% 5
-\BOOKMARK [3][-]{subsubsection.2.1.3}{Ejemplo}{subsection.2.1}% 6
-\BOOKMARK [3][-]{subsubsection.2.1.4}{Precios}{subsection.2.1}% 7
-\BOOKMARK [1][-]{section.3}{Conclusiones}{}% 8
-\BOOKMARK [1][-]{section.4}{Recomendaciones}{}% 9
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Caracter\355sticas}{subsection.2.1}% 4
+\BOOKMARK [3][-]{subsubsection.2.1.2}{Componentes}{subsection.2.1}% 5
+\BOOKMARK [3][-]{subsubsection.2.1.3}{YAML}{subsection.2.1}% 6
+\BOOKMARK [3][-]{subsubsection.2.1.4}{Ejemplo}{subsection.2.1}% 7
+\BOOKMARK [3][-]{subsubsection.2.1.5}{Precios}{subsection.2.1}% 8
+\BOOKMARK [2][-]{subsection.2.2}{Comparaci\363n}{section.2}% 9
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Jenkins y Github Actions}{subsection.2.2}% 10
+\BOOKMARK [3][-]{subsubsection.2.2.2}{GitHub Actions y Azure Pipelines}{subsection.2.2}% 11
+\BOOKMARK [1][-]{section.3}{Conclusiones}{}% 12
+\BOOKMARK [1][-]{section.4}{Recomendaciones}{}% 13

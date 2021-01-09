@@ -37,7 +37,7 @@
 \pagestyle{fancy} 
 \fancyhead{} 
 \fancyfoot{} 
-\fancyhead[C]{Patrones de Diseño $\bullet$ Octubre 2020 $\bullet$ } 
+\fancyhead[C]{Herramientas de gestión de pruebas $\bullet$ Enero 2021 $\bullet$ } 
 \fancyfoot[RO,LE]{\thepage} 
 
 %----------------------------------------------------------------------------------------
@@ -49,7 +49,7 @@
 
 \pretitle{\begin{center}\Huge\bfseries} 
 \posttitle{\end{center}} 
-\title{Patrones de Diseño} 
+\title{Herramientas de gestión de pruebas} 
 \author{Percy Taquila Carazas, Katerin Merino Quispe, Abraham Lipa Calabilla,
 \\Edwart Balcon Coahila, Lisbeth Espinoza Caso}
 \date{\today} 
@@ -90,8 +90,6 @@ Es fundamental para cualquier proyecto, salvo que sea muy pequeño, contar con a
 
 Probar no es solo buscar errores y regresiones. La gestión de pruebas también es vital. En cualquier empresa, es fundamental que pueda auditar la cobertura, la ejecución y los resultados de las pruebas. Aquí es donde entran en juego las herramientas de gestión de pruebas.
 
-
-
 %----------------------------------------------------------------------------------------
 %	Desarrollo
 %----------------------------------------------------------------------------------------
@@ -99,16 +97,19 @@ Probar no es solo buscar errores y regresiones. La gestión de pruebas también 
 
 \section{Desarrollo}
 
-
-
-
-\includegraphics[width=8cm]{Imagenes/imagen}
-
 \subsection{GitHub Actions}
 
 Permite automatizar, personalizar y ejecutar flujos de trabajo de desarrollo de software directamente en tu repositorio. Así mismo, permite descubrir, crear y compartir acciones para realizar incluso \textbf{CI/CD}, y combinar acciones en un flujo de trabajo personalizado. [1]
 
 GitHub Actions ayuda a automatizar tareas dentro del ciclo de vida del desarrollo de software. GitHub Actions está controlada por eventos, lo que significa que puede ejecutar una serie de comandos después de que haya ocurrido un evento específico. Por ejemplo, cada vez que alguien crea \textit{pull request} para un repositorio, puede ejecutar automáticamente un comando que ejecuta un script de prueba de software. [2]
+
+\subsubsection{Características}
+
+\begin{itemize}
+    \item Es posible encontrar un paso manual (\textit{manual step}) codificado, probado y \textit{open-source} como un \textbf{GitHub Action script} en \textbf{GitHub Marketplace}.
+    \item Disponible para múltiples lenguajes y sistemas operativos.
+    \item Permite \textit{Continuous Deployment} a \textbf{Azure, AWS, Google} y otras plataformas en la nube.
+\end{itemize}
 
 \subsubsection{Componentes}
 
@@ -218,7 +219,8 @@ Es posible ver la actividad de los flujos en la pestaña \textbf{Actions}. Al ab
 
 El uso de GitHub Actions es gratuito para los repositorios públicos. Para los repositorios privados, cada cuenta de GitHub recibe una cantidad determinada de minutos y almacenamiento gratuitos dependiendo del producto que se utilice con la cuenta.
 
-\begin{table}[]
+\begin{table*}[ht]
+\begin{center}
 \begin{tabular}{|l|l|l|}
 \hline
 \rowcolor[HTML]{6665CD} 
@@ -229,11 +231,14 @@ GitHub Free para organizaciones                                                 
 GitHub Team                                                                            & 2 GB                                                                                        & 3,000                                                                                          \\ \hline
 GitHub Enterprise Cloud                                                                & 50 GB                                                                                       & 50,000                                                                                         \\ \hline
 \end{tabular}
-\end{table}
+\end{center}
+\caption{Tabla de los productos ofrecidos por GitHub, Almacenamiento y minutos mensuales}
+\end{table*}
 
 Cada sistema operativo consume una cantidad diferente de minutos, siendo 1 minuto de trabajos ejecutados en Linux equivalente a 1 minuto de facturación mensual.
 
-\begin{table}[]
+\begin{table*}[ht]
+\begin{center}
 \begin{tabular}{|l|l|l|}
 \hline
 \rowcolor[HTML]{6665CD} 
@@ -242,12 +247,70 @@ Linux                                                                           
 macOS                                                                                           & \$0.08                                                                                       & 10                                                                                                    \\ \hline
 Windows                                                                                         & \$0.016                                                                                      & 2                                                                                                     \\ \hline
 \end{tabular}
-\end{table}
+\end{center}
+\caption{Tabla de los sistemas operativos soportados, la tasa por minuto en dólares y el multiplicador}
+\end{table*}
+
+\subsection{Comparación}
+
+\subsubsection{Jenkins y Github Actions}
+
+\textbf{Diferencias}
+
+\begin{itemize}
+    \item Jenkins cuenta con pipelines monolíticos y secuenciales como un proceso en cascada, mientras que GitHub Actions cuenta con pipelines asíncronos y basados en componentes como un proceso ágil.
+    \item Jenkins no está diseñado para la nube, mientras que GitHub Actions está en la nube (aunque también se puede instalar en un servidor local).
+    \item Jenkins requiere una instalación, mientras que GitHub Actions, no.
+    \item Jenkins tiene un diseño basado en cuentas y activadores que no se corresponde con un evento de GitHub, mientras que GitHub Actions, en los eventos de GitHub, entre los cuales están: \textit{push, pull, issue, comment, clone, publish}, entre otros.
+    \item GitHub Marketplace tiene más de 4,000 acciones lanzadas en menos de dos años. Jenkins ha lanzado más de 1,000 complementos diferentes en aproximadamente diez años.
+    \item Jenkins tiene un costo de mantenimiento más alto que GitHub Action.
+    \item GitHub Actions es más flexible que Jenkins al ser posible ejecutarlo localmente y enviarlo a GitLab u otro almacenamiento de versiones en la nube.
+    \item Jenkins requiere de un servidor dedicado, mientras que GitHub Actions, no.
+\end{itemize}
+
+\subsubsection{GitHub Actions y Azure Pipelines}
+
+\textbf{Similitudes}
+
+\begin{itemize}
+    \item Los archivos de configuración del flujo de trabajo se escriben en YAML y se almacenan en el repositorio del código.
+    \item Los flujos de trabajo incluyen uno o más trabajos.
+    \item Los trabajos incluyen uno o más pasos o comandos individuales. Los trabajos y los pasos de Azure Pipelines son muy similares a los trabajos y los pasos de las GitHub Actions.
+    \item Los pasos o tareas se pueden reutilizar y compartir con la comunidad.
+\end{itemize}
+
+\textbf{Diferencias}
+
+\begin{itemize}
+    \item GitHub Actions (en la nube) solo es para GitHub, mientras que Azure Pipelines se puede usar fácilmente con diferentes sistemas de control de versiones.
+    \item Github Actions se puede usar para automatizar las revisiones de código, la administración de ramas y la clasificación de issues, mientras que Azure Pipelines se usa principalmente para automatizar los flujos de trabajo de CI/CD.
+    \item Azure Pipeline soporta entornos (\textit{environments}), grupos de implementación y grupos / colas de agentes, mientras que en GitHub Actions solo puede administrar los \textbf{self-hosted runners} mediante grupos (que solo están disponibles en cuentas empresariales).
+    \item Azure Pipelines admite aprobaciones, \textit{gates} y verificaciones, mientras que GitHub Actions no, lo que dificulta el uso de GitHub Actions para organizar los lanzamientos empresariales.
+    \item Azure Pipelines tiene conexiones de servicio y \textit{web hooks} como una forma de organizar las conexiones a servicios externos y remotos en los \textit{pipelines}, mientras que GitHub Actions solo tiene \textit{web Hooks}.
+    \item Azure Pipelines tiene variables (\textit{secrets} y en texto sin cifrar) y grupos de variables para ayudar a administrar configuraciones en los \textit{pipelines}, mientras que GitHub Actions solo tiene \textit{secrets} (vinculados al repositorio u organización).
+    \item Azure Pipelines tiene Secure Files, GitHub Actions no.
+    \item Azure Pipelines soporta Stages en el mismo archivo YAML, GitHub Actions no.
+    \item Las extensiones de Azure Pipelines pueden agrupar varias tareas, mientras que en GitHub Actions es una acción dentro del repositorio de GitHub.
+    \item GitHub Actions admite acciones basadas en contenedores, lo que las hace muy flexibles. Las extensiones de Azure Pipelines solo se pueden crear en Typecript o PowerShell.
+    \item GitHub tiene un escaneo de código integrado y puede integrarse con \textit{security gates} de terceros, mientras que Azure Pipelines solo puede integrarse con \textit{security gates} de terceros.
+    \item En Azure Pipelines, los scripts se pueden configurar para generar errores si se envía algún resultado a \textit{stderr}. GitHub Actions no admite esta configuración.
+    \item GitHub Actions requiere una configuración explícita y la estructura YAML no se puede omitir.
+\end{itemize}
+
+A pesar de usar, la sintaxis YAML, Azure Pipelines y GitHub Actions tienen \textit{Keywords} diferentes con un significado estructural similar.
+
+\begin{figure}[t]
+    \begin{center}
+        \includegraphics[width = \columnwidth]{./Imagenes/1 iwr4M9D-eSbMV8ki5xbU2w.png}
+        \caption{Tabla comparativa de sintaxis de Azure Pipelines y GitHub Actions}
+    \end{center}
+\end{figure}
 
 %----------------------------------------------------------------------------------------
 %	Conclusiones
 %----------------------------------------------------------------------------------------
 
+\newpage
 
 \section{Conclusiones}
 
@@ -274,13 +337,19 @@ La conclusión
 \selectlanguage{spanish}
 \begin{thebibliography}{99} 
 
-\bibitem[0]{}
-\newblock Gamma, Erich; Helm, Richard; Johnson, Ralph; Vlissides, John(1995).Design Patterns: Elements of Reusable Object- Oriented Software. Reading,Massachusetts: Addison Wesley Longman, Inc.
+\bibitem[1]{}
+\newblock GitHub. (s. f.). Documentación de GitHub Actions - GitHub Docs. GitHub Actions. Recuperado 9 de enero de 2021, de https://docs.github.com/es/free-pro-team@latest/actions
+\bibitem[2]{}
+\newblock GitHub. (s. f.-b). Introduction to GitHub Actions - GitHub Docs. Introduction to GitHub Actions. Recuperado 9 de enero de 2021, de https://docs.github.com/es/free-pro-team@latest/actions/learn-github-actions/introduction-to-github-actions
+\bibitem[3]{}
+\newblock Leigh Brenecki, L. B. (s. f.). Learn yaml in Y Minutes. Aprende X en Y minutos Donde X=yaml. Recuperado 9 de enero de 2021, de https://learnxinyminutes.com/docs/es-es/yaml-es/
+\bibitem[4]{}
+\newblock GitHub. (s. f.-a). Acerca de la facturación para GitHub Actions - GitHub Docs. Acerca de la facturación para GitHub Actions. Recuperado 9 de enero de 2021, de https://docs.github.com/es/free-pro-team@latest/github/setting-up-and-managing-billing-and-payments-on-github/about-billing-for-github-actions
+\bibitem[5]{}
+\newblock Cottman, B. H. (2020, 9 julio). Will Github Actions Kill off Jenkins? - The Startup. Medium. https://medium.com/swlh/will-github-actions-kill-off-jenkins-f85e614bb8d3
+\bibitem[6]{}
+\newblock Yermakhanov, M. (2020, 11 diciembre). Azure Pipelines vs. GitHub Actions: Key Differences. Medium. https://medium.com/objectsharp/azure-pipelines-vs-github-actions-key-differences-45390ab132ee
 
-[1] https://docs.github.com/es/free-pro-team@latest/actions
-[2] https://docs.github.com/es/free-pro-team@latest/actions/learn-github-actions/introduction-to-github-actions
-[3] https://learnxinyminutes.com/docs/es-es/yaml-es/
-[4] https://docs.github.com/es/free-pro-team@latest/github/setting-up-and-managing-billing-and-payments-on-github/about-billing-for-github-actions
 \end{thebibliography}
 
 

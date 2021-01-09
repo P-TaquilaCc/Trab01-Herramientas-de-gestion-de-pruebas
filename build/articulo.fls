@@ -636,26 +636,7 @@ INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\tfm\adob
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplrc9e.tfm
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplr9e.tfm
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplr9e.tfm
-INPUT .\Imagenes\imagen.png
-INPUT Imagenes\imagen.png
-INPUT .\Imagenes\imagen.png
-INPUT .\Imagenes\imagen.png
-INPUT .\Imagenes\imagen.png
-INPUT .\Imagenes\imagen.png
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplri9e.tfm
-INPUT .\Imagenes\overview-actions-design.png
-INPUT .\Imagenes\overview-actions-design.png
-INPUT Imagenes\overview-actions-design.png
-INPUT .\Imagenes\overview-actions-design.png
-INPUT .\Imagenes\overview-actions-design.png
-INPUT .\Imagenes\overview-actions-design.png
-INPUT .\Imagenes\overview-actions-design.png
-INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplb9e.tfm
-INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1pplx.fd
-INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1pplx.fd
-INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1pplx.fd
-INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1pplx.fd
-INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplr9c.tfm
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplb9e.vf
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplb8r.tfm
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\fplmb.tfm
@@ -684,7 +665,19 @@ INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\tfm\publ
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplri9e.vf
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplri8r.tfm
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\fplmri.tfm
-INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplr9c.vf
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1pplx.fd
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1pplx.fd
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1pplx.fd
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1pplx.fd
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplr9c.tfm
+INPUT .\Imagenes\overview-actions-design.png
+INPUT .\Imagenes\overview-actions-design.png
+INPUT Imagenes\overview-actions-design.png
+INPUT .\Imagenes\overview-actions-design.png
+INPUT .\Imagenes\overview-actions-design.png
+INPUT .\Imagenes\overview-actions-design.png
+INPUT .\Imagenes\overview-actions-design.png
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplb9e.tfm
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplr9t.tfm
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplr9t.tfm
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplr9t.tfm
@@ -702,6 +695,7 @@ INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\tfm\publ
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\zplmr7t.tfm
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\vf\public\mathpazo\zplmr7y.vf
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplr9c.vf
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\palatino\pplb9e.vf
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\palatino\pplb8r.tfm
 INPUT C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\fonts\tfm\public\mathpazo\fplmb.tfm
@@ -724,6 +718,13 @@ INPUT .\Imagenes\Screenshot_2.png
 INPUT .\Imagenes\Screenshot_2.png
 INPUT .\Imagenes\Screenshot_2.png
 INPUT .\Imagenes\Screenshot_2.png
+INPUT .\Imagenes\1 iwr4M9D-eSbMV8ki5xbU2w.png
+INPUT .\Imagenes\1 iwr4M9D-eSbMV8ki5xbU2w.png
+INPUT Imagenes\1 iwr4M9D-eSbMV8ki5xbU2w.png
+INPUT .\Imagenes\1 iwr4M9D-eSbMV8ki5xbU2w.png
+INPUT .\Imagenes\1 iwr4M9D-eSbMV8ki5xbU2w.png
+INPUT .\Imagenes\1 iwr4M9D-eSbMV8ki5xbU2w.png
+INPUT .\Imagenes\1 iwr4M9D-eSbMV8ki5xbU2w.png
 INPUT d:\Escritorio\Trab01-Herramientas-de-gestion-de-pruebas\build\articulo.aux
 INPUT d:\Escritorio\Trab01-Herramientas-de-gestion-de-pruebas\build\articulo.out
 INPUT d:\Escritorio\Trab01-Herramientas-de-gestion-de-pruebas\build\articulo.out
