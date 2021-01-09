@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.10.9)  8 JAN 2021 22:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.10.9)  8 JAN 2021 22:07
 entering extended mode
 **./articulo.tex
 (articulo.tex
@@ -778,8 +778,15 @@ LaTeX Info: Redefining \% on input line 43.
 )
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 290.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 290.
-Package rerunfilecheck Info: File `articulo.out' has not changed.
-(rerunfilecheck)             Checksum: 6CA68ECFCA3C4F47F8E1AA5264C2D959;517.
+
+
+Package rerunfilecheck Warning: File `articulo.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `articulo.out':
+(rerunfilecheck)             Before: 461E576EC5AF5BC65C1F436D3DB6E4C2;526
+(rerunfilecheck)             After:  6CA68ECFCA3C4F47F8E1AA5264C2D959;517.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 290.
  ) 
 Here is how much of TeX's memory you used:
