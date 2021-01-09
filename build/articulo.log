@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.14)  9 JAN 2021 02:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.14)  9 JAN 2021 08:43
 entering extended mode
 **d:/Escritorio/Trab01-Herramientas-de-gestion-de-pruebas/articulo.tex
 (d:/Escritorio/Trab01-Herramientas-de-gestion-de-pruebas/articulo.tex
@@ -417,14 +417,20 @@ LaTeX Warning: Label `' multiply defined.
 
 LaTeX Warning: Label `' multiply defined.
 
+LaTeX Info: Redefining \. on input line 65.
+LaTeX Info: Redefining \% on input line 65.
 
 LaTeX Warning: Label `' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
 
-LaTeX Info: Redefining \. on input line 55.
-LaTeX Info: Redefining \% on input line 55.
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
 )
 \openout1 = `articulo.aux'.
 
@@ -580,7 +586,7 @@ LaTeX Font Info:    Trying to load font information for TS1+pplx on input line 1
  (C:\Users\AbrahamLIPACALABILLA\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1pplx.fd
 File: ts1pplx.fd 2004/09/06 font definitions for TS1/pplx.
 )
-<./Imagenes/overview-actions-design.png, id=64, 332.24126pt x 344.28625pt>
+<./Imagenes/overview-actions-design.png, id=100, 332.24126pt x 344.28625pt>
 File: ./Imagenes/overview-actions-design.png Graphic file (type png)
 <use ./Imagenes/overview-actions-design.png>
 Package pdftex.def Info: ./Imagenes/overview-actions-design.png  used on input line 117.
@@ -598,12 +604,12 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<Imagenes/Screenshot_1.png, id=71, 493.845pt x 332.74312pt>
+<Imagenes/Screenshot_1.png, id=107, 493.845pt x 332.74312pt>
 File: Imagenes/Screenshot_1.png Graphic file (type png)
 <use Imagenes/Screenshot_1.png>
 Package pdftex.def Info: Imagenes/Screenshot_1.png  used on input line 199.
 (pdftex.def)             Requested size: 205.0023pt x 138.12643pt.
-<./Imagenes/Screenshot_2.png, id=73, 236.38312pt x 331.2375pt>
+<./Imagenes/Screenshot_2.png, id=109, 236.38312pt x 331.2375pt>
 File: ./Imagenes/Screenshot_2.png Graphic file (type png)
 <use ./Imagenes/Screenshot_2.png>
 Package pdftex.def Info: ./Imagenes/Screenshot_2.png  used on input line 213.
@@ -613,206 +619,220 @@ Package pdftex.def Info: ./Imagenes/Screenshot_2.png  used on input line 213.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [3 <./Imagenes/Screenshot_1.png>]
-Underfull \vbox (badness 2941) has occurred while \output is active []
-
- [4 <./Imagenes/Screenshot_2.png>]
-Underfull \hbox (badness 2096) in paragraph at lines 288--289
-[]\T1/pplx/m/n/10 (+20) Azure Pipelines ad-mite aproba-ciones,
+Underfull \hbox (badness 10000) in paragraph at lines 282--283
+[]\T1/pplx/m/n/10 (+20) Ejecutar java -jar jenk-ins.war --
  []
 
-
-Underfull \hbox (badness 4569) in paragraph at lines 288--289
-\T1/pplx/m/it/10 (+20) gates \T1/pplx/m/n/10 (+20) y ver-i-fi-ca-ciones, mien-tras que
- []
-
-
-Underfull \hbox (badness 1152) in paragraph at lines 292--293
-[]\T1/pplx/m/n/10 (+20) Azure Pipelines so-porta Stages en el
- []
-
-
-Underfull \hbox (badness 4543) in paragraph at lines 293--294
-[]\T1/pplx/m/n/10 (+20) Las ex-ten-siones de Azure Pipelines
- []
-
-<./Imagenes/1 iwr4M9D-eSbMV8ki5xbU2w.png, id=92, 702.625pt x 496.85625pt>
+[4 <./Imagenes/Screenshot_2.png>]
+<./Imagenes/1.png, id=128, 439.6425pt x 383.93437pt>
+File: ./Imagenes/1.png Graphic file (type png)
+<use ./Imagenes/1.png>
+Package pdftex.def Info: ./Imagenes/1.png  used on input line 317.
+(pdftex.def)             Requested size: 170.71652pt x 149.08351pt.
+ [5 <./Imagenes/1.png>]
+<./Imagenes/2.png, id=134, 631.60968pt x 398.99063pt>
+File: ./Imagenes/2.png Graphic file (type png)
+<use ./Imagenes/2.png>
+Package pdftex.def Info: ./Imagenes/2.png  used on input line 365.
+(pdftex.def)             Requested size: 430.00462pt x 271.6388pt.
+<./Imagenes/1 iwr4M9D-eSbMV8ki5xbU2w.png, id=135, 702.625pt x 496.85625pt>
 File: ./Imagenes/1 iwr4M9D-eSbMV8ki5xbU2w.png Graphic file (type png)
 <use ./Imagenes/1 iwr4M9D-eSbMV8ki5xbU2w.png>
-Package pdftex.def Info: ./Imagenes/1 iwr4M9D-eSbMV8ki5xbU2w.png  used on input line 304.
+Package pdftex.def Info: ./Imagenes/1 iwr4M9D-eSbMV8ki5xbU2w.png  used on input line 374.
 (pdftex.def)             Requested size: 205.0023pt x 144.96405pt.
 
-Underfull \hbox (badness 1902) in paragraph at lines 305--305
+Underfull \hbox (badness 1902) in paragraph at lines 375--375
 [][]|\T1/pplx/m/it/9 (+20) Tabla com-par-a-tiva de sin-taxis de Azure
  []
 
-[5 <./Imagenes/1 iwr4M9D-eSbMV8ki5xbU2w.png (PNG copy)>]
-LaTeX Info: Redefining \. on input line 337.
-LaTeX Info: Redefining \% on input line 337.
+[6]
+LaTeX Info: Redefining \. on input line 413.
+LaTeX Info: Redefining \% on input line 413.
 
-Underfull \hbox (badness 1917) in paragraph at lines 341--342
+Underfull \hbox (badness 1917) in paragraph at lines 417--418
 \T1/pplx/m/n/10 (+20) Ac-tions - GitHub Docs. GitHub Ac-
  []
 
 
-Underfull \hbox (badness 4505) in paragraph at lines 343--344
+Underfull \hbox (badness 4505) in paragraph at lines 419--420
 [] \T1/pplx/m/n/10 (+20) GitHub. (s. f.-b). In-tro-duc-tion to
  []
 
 
-Underfull \hbox (badness 2662) in paragraph at lines 343--344
+Underfull \hbox (badness 2662) in paragraph at lines 419--420
 \T1/pplx/m/n/10 (+20) GitHub Ac-tions - GitHub Docs. In-
  []
 
 
-Underfull \hbox (badness 8132) in paragraph at lines 343--344
+Underfull \hbox (badness 8132) in paragraph at lines 419--420
 \T1/pplx/m/n/10 (+20) tro-duc-tion to GitHub Ac-tions. Re-
  []
 
 
-Underfull \hbox (badness 4242) in paragraph at lines 343--344
+Underfull \hbox (badness 4242) in paragraph at lines 419--420
 \T1/pplx/m/n/10 (+20) cu-pe-ra-do 9 de enero de 2021, de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 343--344
+Underfull \hbox (badness 10000) in paragraph at lines 419--420
 \T1/pplx/m/n/10 (+20) https://docs.github.com/es/free-pro-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 343--344
+Underfull \hbox (badness 10000) in paragraph at lines 419--420
 \T1/pplx/m/n/10 (+20) team@latest/actions/learn-github-
  []
 
 
-Underfull \hbox (badness 1173) in paragraph at lines 345--346
+Underfull \hbox (badness 1173) in paragraph at lines 421--422
 [] \T1/pplx/m/n/10 (+20) Leigh Bre-nec-ki, L. B. (s. f.). Learn
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--346
+Underfull \hbox (badness 10000) in paragraph at lines 421--422
 \T1/pplx/m/n/10 (+20) yaml in Y Mi-nu-tes. Apren-de X
  []
 
 
-Underfull \hbox (badness 4846) in paragraph at lines 345--346
+Underfull \hbox (badness 4846) in paragraph at lines 421--422
 \T1/pplx/m/n/10 (+20) en Y mi-nu-tos Don-de X=yaml. Re-
  []
 
 
-Underfull \hbox (badness 4242) in paragraph at lines 345--346
+Underfull \hbox (badness 4242) in paragraph at lines 421--422
 \T1/pplx/m/n/10 (+20) cu-pe-ra-do 9 de enero de 2021, de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--346
+Underfull \hbox (badness 10000) in paragraph at lines 421--422
 \T1/pplx/m/n/10 (+20) https://learnxinyminutes.com/docs/es-
  []
 
 
-Underfull \hbox (badness 1009) in paragraph at lines 347--348
+Underfull \hbox (badness 1009) in paragraph at lines 423--424
 \T1/pplx/m/n/10 (+20) pa-ra GitHub Ac-tions - GitHub Docs.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 347--348
+Underfull \hbox (badness 10000) in paragraph at lines 423--424
 \T1/pplx/m/n/10 (+20) de https://docs.github.com/es/free-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 347--348
+Underfull \hbox (badness 10000) in paragraph at lines 423--424
 \T1/pplx/m/n/10 (+20) pro-team@latest/github/setting-up-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 347--348
+Underfull \hbox (badness 10000) in paragraph at lines 423--424
 \T1/pplx/m/n/10 (+20) and-managing-billing-and-payments-on-
  []
 
-
-Underfull \hbox (badness 7186) in paragraph at lines 349--350
+[7pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.424 \bibitem[5]{}
+                   pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.424 \bibitem[5]{}
+                   pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.424 \bibitem[5]{}
+                    <./Imagenes/2.png> <./Imagenes/1 iwr4M9D-eSbMV8ki5xbU2w.png (PNG copy)>]pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.424 \bibitem[5]{}
+                   
+Underfull \hbox (badness 7186) in paragraph at lines 425--426
 [] \T1/pplx/m/n/10 (+20) Cott-man, B. H. (2020, 9 ju-lio).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 349--350
+Underfull \hbox (badness 10000) in paragraph at lines 425--426
 \T1/pplx/m/n/10 (+20) Will Github Ac-tions Kill off Jen-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 349--350
+Underfull \hbox (badness 10000) in paragraph at lines 425--426
 \T1/pplx/m/n/10 (+20) kins? - The Star-tup. Me-dium.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 349--350
+Underfull \hbox (badness 10000) in paragraph at lines 425--426
 \T1/pplx/m/n/10 (+15) https://medium.com/swlh/will-github-
  []
 
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.427 \bibitem[6]{}
+                   
+Underfull \hbox (badness 10000) in paragraph at lines 428--429
+[] \T1/pplx/m/n/10 (+20) https://azure.microsoft.com/es-
+ []
 
-Underfull \hbox (badness 1484) in paragraph at lines 351--352
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.430 \bibitem[7]{}
+                   
+Underfull \hbox (badness 1484) in paragraph at lines 431--432
 [] \T1/pplx/m/n/10 (+20) Yer-makha-nov, M. (2020, 11 di-ciem-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 351--352
+Underfull \hbox (badness 10000) in paragraph at lines 431--432
 \T1/pplx/m/n/10 (+20) bre). Azu-re Pi-pe-li-nes vs. GitHub
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 351--352
+Underfull \hbox (badness 10000) in paragraph at lines 431--432
 \T1/pplx/m/n/10 (+20) Ac-tions: Key Dif-fe-ren-ces. Me-dium.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 351--352
+Underfull \hbox (badness 10000) in paragraph at lines 431--432
 \T1/pplx/m/n/10 (+20) pipelines-vs-github-actions-key-
  []
 
-[6pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.359 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.359 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.359 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.359 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.359 \end{document}
-                    ] (d:/Escritorio\Trab01-Herramientas-de-gestion-de-pruebas\build\articulo.aux
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.433 \bibitem[8]{}
+                   
+Overfull \hbox (58.22304pt too wide) in paragraph at lines 434--436
+[] \T1/pplx/m/n/10 (-20) https://www.javiergarzas.com/2013/10/herramientas-
+ []
+
+[8
+
+] (d:/Escritorio\Trab01-Herramientas-de-gestion-de-pruebas\build\articulo.aux
 LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
-LaTeX Info: Redefining \. on input line 55.
-LaTeX Info: Redefining \% on input line 55.
+LaTeX Info: Redefining \. on input line 65.
+LaTeX Info: Redefining \% on input line 65.
 )
 Package rerunfilecheck Info: File `articulo.out' has not changed.
-(rerunfilecheck)             Checksum: 597F9567CD7A7B1FF63B05D755322C85;835.
+(rerunfilecheck)             Checksum: B4B457A1F66B5A9E409831D2CD5EF4A1;1479.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 13560 strings out of 480236
- 216412 string characters out of 2873432
- 577505 words of memory out of 3000000
- 29565 multiletter control sequences out of 15000+200000
- 594390 words of font info for 280 fonts, out of 3000000 for 9000
+ 13609 strings out of 480236
+ 217124 string characters out of 2873432
+ 577585 words of memory out of 3000000
+ 29588 multiletter control sequences out of 15000+200000
+ 595085 words of font info for 289 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,14n,66p,617b,491s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\AbrahamLIPACALABILLA\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk>{C:/Users/AbrahamLIPACALABILLA/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/AbrahamLIPACALABILLA/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/AbrahamLIPACALABILLA/AppData/Local/Programs/MiKTeX/fonts/type1/public/fpl/fplrc8a.pfb><C:/Users/AbrahamLIPACALABILLA/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/AbrahamLIPACALABILLA/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/AbrahamLIPACALABILLA/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on d:/Escritorio\Trab01-Herramientas-de-gestion-de-pruebas\build\articulo.pdf (6 pages, 264944 bytes).
+Output written on d:/Escritorio\Trab01-Herramientas-de-gestion-de-pruebas\build\articulo.pdf (8 pages, 411035 bytes).
 PDF statistics:
- 159 PDF objects out of 1000 (max. 8388607)
- 30 named destinations out of 1000 (max. 500000)
- 53885 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 214 PDF objects out of 1000 (max. 8388607)
+ 42 named destinations out of 1000 (max. 500000)
+ 53967 words of extra memory for PDF output out of 61914 (max. 10000000)
 

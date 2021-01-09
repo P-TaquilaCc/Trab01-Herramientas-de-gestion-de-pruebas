@@ -6,8 +6,17 @@
 \BOOKMARK [3][-]{subsubsection.2.1.3}{YAML}{subsection.2.1}% 6
 \BOOKMARK [3][-]{subsubsection.2.1.4}{Ejemplo}{subsection.2.1}% 7
 \BOOKMARK [3][-]{subsubsection.2.1.5}{Precios}{subsection.2.1}% 8
-\BOOKMARK [2][-]{subsection.2.2}{Comparaci\363n}{section.2}% 9
-\BOOKMARK [3][-]{subsubsection.2.2.1}{Jenkins y Github Actions}{subsection.2.2}% 10
-\BOOKMARK [3][-]{subsubsection.2.2.2}{GitHub Actions y Azure Pipelines}{subsection.2.2}% 11
-\BOOKMARK [1][-]{section.3}{Conclusiones}{}% 12
-\BOOKMARK [1][-]{section.4}{Recomendaciones}{}% 13
+\BOOKMARK [2][-]{subsection.2.2}{Jenkins}{section.2}% 9
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Instalaci\363n}{subsection.2.2}% 10
+\BOOKMARK [3][-]{subsubsection.2.2.2}{Jenkins pipeline}{subsection.2.2}% 11
+\BOOKMARK [2][-]{subsection.2.3}{Azure DevOps}{section.2}% 12
+\BOOKMARK [3][-]{subsubsection.2.3.1}{Definicion}{subsection.2.3}% 13
+\BOOKMARK [3][-]{subsubsection.2.3.2}{Ventajas}{subsection.2.3}% 14
+\BOOKMARK [3][-]{subsubsection.2.3.3}{DevOps y el ciclo de vida de las aplicaciones}{subsection.2.3}% 15
+\BOOKMARK [3][-]{subsubsection.2.3.4}{Herramientas}{subsection.2.3}% 16
+\BOOKMARK [2][-]{subsection.2.4}{Comparaci\363n}{section.2}% 17
+\BOOKMARK [3][-]{subsubsection.2.4.1}{Jenkins y Github Actions}{subsection.2.4}% 18
+\BOOKMARK [2][-]{subsection.2.5}{Azure Pipeline y GitHub Actions}{section.2}% 19
+\BOOKMARK [3][-]{subsubsection.2.5.1}{Similitudes}{subsection.2.5}% 20
+\BOOKMARK [1][-]{section.3}{Conclusiones}{}% 21
+\BOOKMARK [1][-]{section.4}{Recomendaciones}{}% 22
