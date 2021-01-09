@@ -268,36 +268,65 @@ Windows                                                                         
     \item Jenkins requiere de un servidor dedicado, mientras que GitHub Actions, no.
 \end{itemize}
 
-\subsubsection{GitHub Actions y Azure Pipelines}
+\subsection{Azure DevOps}
 
-\textbf{Similitudes}
+\subsubsection{Definicion}
+
+Donovan Brown, el Administrador de DevOps principal en el grupo de Azure lo describe: "DevOps es la unión de personas, procesos y productos para permitir la entrega continua de valor a los usuarios finales".[5]
+
+DevOps permite que los roles que antes estaban aislados (desarrollo, operaciones de TI, ingeniería de la calidad y seguridad) se coordinen y colaboren para producir productos mejores y más confiables.[6]
+
+\subsubsection{Ventajas}
+
+Mejoran el rendimiento y crean productos de más calidad en menos tiempo, lo que aumenta la satisfacción de los clientes. Esta mejora de la colaboración y la productividad es fundamental también para alcanzar objetivos de negocio como estos:
 
 \begin{itemize}
-    \item Los archivos de configuración del flujo de trabajo se escriben en YAML y se almacenan en el repositorio del código.
-    \item Los flujos de trabajo incluyen uno o más trabajos.
-    \item Los trabajos incluyen uno o más pasos o comandos individuales. Los trabajos y los pasos de Azure Pipelines son muy similares a los trabajos y los pasos de las GitHub Actions.
-    \item Los pasos o tareas se pueden reutilizar y compartir con la comunidad.
+\item Reducción del tiempo de comercialización
+\item Adaptación al mercado y a la competencia
+\item Mantenimiento de la estabilidad y la confiabilidad del sistema
+\item Mejora del tiempo medio de recuperación
 \end{itemize}
 
-\textbf{Diferencias}
+\subsubsection{DevOps y el ciclo de vida de las aplicaciones}
+DevOps influye en el ciclo de vida de las aplicaciones a lo largo de las fases de planeamiento, desarrollo, entrega y uso.
 
-\begin{itemize}
-    \item GitHub Actions (en la nube) solo es para GitHub, mientras que Azure Pipelines se puede usar fácilmente con diferentes sistemas de control de versiones.
-    \item Github Actions se puede usar para automatizar las revisiones de código, la administración de ramas y la clasificación de issues, mientras que Azure Pipelines se usa principalmente para automatizar los flujos de trabajo de CI/CD.
-    \item Azure Pipeline soporta entornos (\textit{environments}), grupos de implementación y grupos / colas de agentes, mientras que en GitHub Actions solo puede administrar los \textbf{self-hosted runners} mediante grupos (que solo están disponibles en cuentas empresariales).
-    \item Azure Pipelines admite aprobaciones, \textit{gates} y verificaciones, mientras que GitHub Actions no, lo que dificulta el uso de GitHub Actions para organizar los lanzamientos empresariales.
-    \item Azure Pipelines tiene conexiones de servicio y \textit{web hooks} como una forma de organizar las conexiones a servicios externos y remotos en los \textit{pipelines}, mientras que GitHub Actions solo tiene \textit{web Hooks}.
-    \item Azure Pipelines tiene variables (\textit{secrets} y en texto sin cifrar) y grupos de variables para ayudar a administrar configuraciones en los \textit{pipelines}, mientras que GitHub Actions solo tiene \textit{secrets} (vinculados al repositorio u organización).
-    \item Azure Pipelines tiene Secure Files, GitHub Actions no.
-    \item Azure Pipelines soporta Stages en el mismo archivo YAML, GitHub Actions no.
-    \item Las extensiones de Azure Pipelines pueden agrupar varias tareas, mientras que en GitHub Actions es una acción dentro del repositorio de GitHub.
-    \item GitHub Actions admite acciones basadas en contenedores, lo que las hace muy flexibles. Las extensiones de Azure Pipelines solo se pueden crear en Typecript o PowerShell.
-    \item GitHub tiene un escaneo de código integrado y puede integrarse con \textit{security gates} de terceros, mientras que Azure Pipelines solo puede integrarse con \textit{security gates} de terceros.
-    \item En Azure Pipelines, los scripts se pueden configurar para generar errores si se envía algún resultado a \textit{stderr}. GitHub Actions no admite esta configuración.
-    \item GitHub Actions requiere una configuración explícita y la estructura YAML no se puede omitir.
-\end{itemize}
+\includegraphics[width = 6cm]{./Imagenes/1.png}
 
-A pesar de usar, la sintaxis YAML, Azure Pipelines y GitHub Actions tienen \textit{Keywords} diferentes con un significado estructural similar.
+
+\subsubsection{Herramientas}
+- \textbf{GitHub}
+Aumenta la colaboración, flujos de trabajo del código\\
+- \textbf{Azure Pipelines}
+Implementa CI/CD para compilar, probar e implementar soluciones de forma continuada\\
+- \textbf{Azure Boards}
+Planea, controla el trabajo entre los equipos\\
+- \textbf{Azure Monitor}
+Visibilidad sobre las aplicaciones, la infraestructura y la red\\
+- \textbf{Visual Studio}
+IDE diseñado para crear aplicaciones eficaces y escalables para Azure\\
+- \textbf{Azure Kubernetes Service}
+Distribuye aplicaciones en contenedores con más rapidez
+
+\subsection{Azure Pipeline y GitHub Actions}
+
+
+
+\subsubsection{Similitudes}
+- Los archivos de configuración del flujo de trabajo se escriben en YAML
+
+- Los flujos de trabajo incluyen uno o más trabajos.
+
+- Los pasos o tareas se pueden reutilizar y compartir con la comunidad.
+
+\textbf{Diferencias entre Azure Pipeline y GitHub Actions}[7]
+
+\begin{figure*}[htb]
+\centering
+\includegraphics[width=1\textwidth]{./Imagenes/2.png}
+\caption{Diferencias entre Azure Pipeline y GitHub Actions}
+\label{fig:mont}
+\end{figure*}
+
 
 \begin{figure}[t]
     \begin{center}
